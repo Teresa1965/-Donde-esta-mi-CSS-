@@ -1,0 +1,134 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+
+  .title, .subtitle {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none;
+    color: #3e2ee9;
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+   
+  }
+  
+
+.card{
+    background-color: white;
+    width: 370px;
+    height: 540px;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 6px;
+    text-align: center;
+    position:relative
+}
+
+
+.social-login{
+    display: flex;
+    justify-content: center;
+}
+
+
+.google-btn{
+    width: 240px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    border: 3px solid rgb(197, 193, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text{
+    text-align: center;
+    font-weight: bold;
+}
+.fb-btn{
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    border: 3px solid #322B86;
+    margin-left:10px;
+}
+
+img{
+    height: 20px;
+    width: 35px;
+    background-color: white;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .google-btn,
+  .fb-btn {
+    margin: 0 5px; 
+  }
+
+  .or::before,
+.or::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000;
+  margin: 0 10px;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+  
+
+label{
+    font-size: larger;
+    font-weight:bolder; 
+    color: rgb(197, 193, 193);
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 32px;
+}
+
+input{
+    width: 280px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(197, 193, 193);
+    padding-left: 10px;
+    letter-spacing:0.07em;
+}
+.cta-btn{
+    background-color:#322B86;
+    border: 0px;
+    width: 296px;
+    height: 50px;
+    border-radius: 6px;
+    display: flex;
+    margin: 30px 35px;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.forget-pass{
+    font-weight: bold;
+    font-size: larger;
+}
+
+  
